@@ -87,7 +87,7 @@ function getSendgrid(res) {
     server: 'sendgridcredentials1.database.windows.net', // update me
     options:
     {
-      database: 'Sendusercred1', //update me
+      database: 'Sendgridcred1', //update me
       encrypt: true
     }
   }
