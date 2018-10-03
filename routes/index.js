@@ -3,6 +3,10 @@ var fs = require("fs");
 var path = require('path');
 var request = require('request');
 var textract = require('textract');
+var sppull = require("sppull").sppull;
+var Connection = require('tedious').Connection;
+var Request = require('tedious').Request;
+var https = require ('https');
 
 var url = require('url');
 var juice = require('juice');

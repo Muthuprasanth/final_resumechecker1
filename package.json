@@ -13,11 +13,14 @@
     "express": "~4.16.0",
     "fs": "0.0.1-security",
     "http-errors": "~1.6.2",
+    "https": "^1.0.0",
     "juice": "^5.0.0",
     "morgan": "~1.9.0",
     "path": "^0.12.7",
     "pug": "2.0.0-beta11",
     "request": "^2.88.0",
+    "sppull": "^2.2.7",
+    "tedious": "^2.6.4",
     "textract": "^2.4.0",
     "url": "^0.11.0"
   }
