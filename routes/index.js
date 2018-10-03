@@ -1,3 +1,11 @@
+require('dotenv').config();
+var fs = require("fs");
+var path = require('path');
+
+var url = require('url');
+var juice = require('juice');
+const sgMail = require('@sendgrid/mail');
+
 var express = require('express');
 var router = express.Router();
 
